@@ -1,16 +1,117 @@
 <div align="center">
-<div align="center">
-    <img src="public/images/Banner.png" alt="ThoughtWeb Banner" width="600">
-    
-## Visualize and create your personal networks
-
+  <img src="public/images/Banner.png" alt="ThoughtWeb Banner" width="600">
+  
+  # 🧠 ThoughtWeb
+  
+  ### Map your mind. Connect your thoughts. Visualize your life.
+  
+  [![GitHub](https://img.shields.io/badge/Aashish--Jha--11-ThoughtWeb-black?logo=github)](https://github.com/Aashish-Jha-11/MAP)
+  [![Version](https://img.shields.io/badge/version-Beta-black)](https://github.com/Aashish-Jha-11/MAP)
+  [![License](https://img.shields.io/badge/License-MIT-black)](LICENSE)
+  
+  <a href="https://aashish-jha-11.github.io/MAP/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_Try_It_Live-black?style=for-the-badge" alt="Try ThoughtWeb" width="200">
+  </a>
 </div>
 
-<img src="https://img.shields.io/static/v1?label=Aashish-Jha-11&message=ThoughtWeb&color=black&logo=github" alt="Aashish-Jha-11 - ThoughtWeb">
-<img src="https://img.shields.io/badge/version-Beta-black" alt="Version 1.1.2">
-<img src="https://img.shields.io/badge/License-MIT-black" alt="License Apache 2.0">
+---
 
+## 🎯 What is ThoughtWeb?
 
+Ever feel like your thoughts are scattered across a million browser tabs in your brain? **ThoughtWeb** is your digital space to connect the dots—literally. 
+
+Build interactive mind maps that link your education, work, hobbies, dreams, and everything in between. It's part brain dump, part visual diary, and 100% yours.
+
+### ✨ Key Features
+
+- 🎨 **Futuristic Cyberpunk UI** - Neon aesthetics that make organizing thoughts actually fun
+- 🔐 **Cloud Sync with Google** - Sign in once, access anywhere via Supabase
+- 💾 **Local-First** - Works offline, saves locally, no account needed
+- 🎯 **Drag & Connect** - Intuitive interface for building complex networks
+- 📱 **Mobile-Friendly** - Pinch to zoom, tap to connect, works on any device
+- 🌐 **100% Open Source** - Fork it, break it, make it yours
+
+---
+
+## 🚀 Quick Start
+
+### Using the App
+
+1. **Create Your Center** - Drop your name, that's your universe's starting point
+2. **Branch Out** - Click nodes to add children, build your categories
+3. **Connect Ideas** - Hit connect mode and link related thoughts
+4. **Edit Freely** - Double-click any node to rename it
+5. **Never Lose Progress** - Auto-saves locally, cloud sync with Google sign-in
+
+### Running Locally
+
+```bash
+# Clone this repo
+git clone https://github.com/Aashish-Jha-11/MAP.git
+cd MAP
+
+# Install dependencies
+npm install
+
+# Fire it up
+npm start
+
+# Build for production
+npm run build
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **React 18** - Because hooks are life
+- **D3.js** - For those smooth SVG connections
+- **Supabase** - PostgreSQL cloud sync + Google OAuth
+- **LocalStorage** - Offline-first fallback
+- **Pure CSS** - Custom cyberpunk theme, zero frameworks
+
+---
+
+## 💡 How Saving Works
+
+**Without Login:** Everything saves to your browser's localStorage + downloads as JSON  
+**With Google Sign-In:** Syncs to Supabase cloud (PostgreSQL) - access from anywhere, any device
+
+Your data, your choice. No forced accounts, no tracking.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! Found a bug? Got a cool feature idea? Open an issue or fork the repo.
+
+**Ideas for contributors:**
+- More export formats (PNG, PDF, Markdown)
+- Collaboration features (shared maps)
+- Custom themes and color schemes
+- Keyboard shortcuts
+- Mobile app version
+
+---
+
+## 💭 The Story
+
+This project was born during a Dr. Edward Rogers session about the importance of thought mapping. The idea hit hard, and thanks to some quality ADHD-fueled hyperfocus, ThoughtWeb went from concept to reality in record time.
+
+Originally built with Firebase, now rebuilt with Supabase for better open-source vibes and a more generous free tier.
+
+---
+
+## 📄 License
+
+MIT License - See [LICENSE](LICENSE) for details.
+
+Built with caffeine and chaos by [Aashish Jha](https://github.com/Aashish-Jha-11)
+
+---
+
+<div align="center">
+  <sub>If this helped you organize your brain, ⭐ star the repo!</sub>
 </div>
 
 ## Description
